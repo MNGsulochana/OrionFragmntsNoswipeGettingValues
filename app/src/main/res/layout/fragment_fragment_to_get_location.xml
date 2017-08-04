@@ -1,0 +1,68 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="orion.myorionwithfragmentssignup.fragments.FragmentToGetLocation">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+
+            android:layout_marginTop="20dp"
+              android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_postalcode"
+            android:inputType="number"
+            android:id="@+id/entr_pincode"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text=""
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:id="@+id/entr_address"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text=""
+            android:layout_marginTop="10dp"
+            android:id="@+id/entr_city"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=""
+
+            android:layout_marginTop="10dp"
+            android:id="@+id/entr_state"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=""
+
+            android:layout_marginTop="10dp"
+            android:id="@+id/entr_country"/>
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ent_btn_loctn"
+
+            android:text="@string/enter_btnname"/>
+
+          </LinearLayout>
+      </ScrollView>
+
+
+
